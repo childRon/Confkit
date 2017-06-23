@@ -1,0 +1,66 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.schneider.confkit"
+    },
+    "jhipsterVersion": "4.5.5",
+    "baseName": "confkit",
+    "packageName": "com.schneider.confkit",
+    "packageFolder": "com/schneider/confkit",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "a78388f42443bd94ff79121a9b2e8f1502407329",
+    "clientFramework": "angular2",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nav-element",
+        "version": "1.2.2"
+      },
+      {
+        "name": "generator-jhipster-swagger2markup",
+        "version": "1.2.0"
+      },
+      {
+        "name": "generator-jhipster-entity-audit",
+        "version": "2.4.1"
+      },
+      {
+        "name": "generator-jhipster-elasticsearch-reindexer",
+        "version": "0.3.0"
+      },
+      {
+        "name": "generator-jhipster-entity-audit-and-delete",
+        "version": "2.2.2"
+      },
+      {
+        "name": "generator-jhipster-material",
+        "version": "0.0.0"
+      },
+      {
+        "name": "generator-jhipster-angular-ui",
+        "version": "0.0.2"
+      },
+      {
+        "name": "generator-jhipster-webservice",
+        "version": "0.1.0"
+      }
+    ],
+    "enableTranslation": false
+  }
+}

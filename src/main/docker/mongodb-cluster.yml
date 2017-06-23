@@ -1,0 +1,16 @@
+version: '2'
+services:
+    confkit-mongodb:
+        image: mongo:3.2.10
+        ports:
+            - "27017:27017"
+        command: mongos --configdb confkit-mongodb-config
+    confkit-mongodb-node:
+        build:
+            context: .
+            dockerfile: mongodb/MongoDB.Dockerfile
+        command: mongod --replSet rs1 --noprealloc --smallfiles
+    confkit-mongodb-config:
+        image: mongo:3.2.10
+        container_name: confkit-mongodb-config
+        command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

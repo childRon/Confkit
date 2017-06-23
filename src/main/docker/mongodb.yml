@@ -1,0 +1,8 @@
+version: '2'
+services:
+    confkit-mongodb:
+        image: mongo:3.2.10
+        ports:
+            - "27017:27017"
+        # volumes:
+        #     - ~/volumes/jhipster/confkit/mongodb/:/data/db/
